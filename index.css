@@ -83,7 +83,7 @@
     .main-content{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows:400px 1fr;
+        grid-template-rows:minmax(400px, 1fr) min-content;
         margin-bottom: 0;
     }
     
