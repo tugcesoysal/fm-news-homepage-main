@@ -83,7 +83,7 @@
     .main-content{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows:2fr 1fr;
+        grid-template-rows:400px 1fr;
         margin-bottom: 0;
     }
     
@@ -97,7 +97,8 @@
         padding-right: 80px;
         grid-row: 2 / 3;
         grid-column: 1;
-        align-self: center;
+        align-self: self-start;
+        margin-top: 20px;
     }
     
     .main-content > p {
